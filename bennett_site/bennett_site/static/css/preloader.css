@@ -44,22 +44,22 @@
 }
 
 .ip-header .ip-logo svg path {
-	fill: #046674;
+	fill: #cc0937;
 }
 
 .ip-header .ip-loader svg path {
 	fill: none;
-	stroke-width: 6;
+	stroke-width: 1;
 }
 
 .ip-header .ip-loader svg path.ip-loader-circlebg {
-	stroke: #ddd;
+	stroke: #FFFFFF;
 }
 
 .ip-header .ip-loader svg path.ip-loader-circle {
 	-webkit-transition: stroke-dashoffset 0.2s;
 	transition: stroke-dashoffset 0.2s;
-	stroke: #046674;
+	stroke: #cc0937;
 }
 
 

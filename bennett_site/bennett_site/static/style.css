@@ -354,7 +354,7 @@ h1, h2, h3, h4, h5{
 h1{
     font-size:50px;
     text-transform: uppercase;
-    letter-spacing: 20px;
+    letter-spacing: 5px;
 }
 
 h2{
@@ -376,10 +376,10 @@ h5{
 }
 
 p {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
     font-weight: 300;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 40px;
     color: #4c4c4c;
 }
 
@@ -394,8 +394,13 @@ p.bold{
 /*<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->*/
 
 #intro h1, #intro p{
-    color:white;
+    color: white;
+    letter-spacing: none;
+}
 
+#introp {
+    letter-spacing: none;
+    color: red;
 }
 
 .introLogo{
