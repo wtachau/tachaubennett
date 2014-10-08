@@ -82,4 +82,4 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.7/howto/static-files/
 
-STATIC_URL = 'http://tachaubennettresources.s3-us-west-1.amazonaws.com/'
+STATIC_URL = '/static/'
