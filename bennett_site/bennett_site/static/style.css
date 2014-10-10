@@ -110,6 +110,16 @@ section .container{
     margin-top:100px;
 }
 
+
+                /* header font span styling start */
+
+#custom {
+    font-family: 'Arial','Verdana';
+}
+
+
+                /* header font span styling end */
+
 .noscroll{
     overflow:hidden;
 }
@@ -120,7 +130,7 @@ section .container{
     overflow:hidden;
 }
 
-
+                
 
 /*parallax letters*/
 
@@ -394,7 +404,7 @@ p.bold{
 /*<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->*/
 
 #intro h1, #intro p{
-    color:lime;
+    color:white;
 
 }
 
