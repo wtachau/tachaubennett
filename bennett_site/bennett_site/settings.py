@@ -20,7 +20,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 SECRET_KEY = 'qx#u5+(w8-5og1_fkllk@v@t%*^4f9v)katfg7u*4o-12)o^h!'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+import sys
+DEBUG = (sys.argv[1] == 'runserver')
 
 TEMPLATE_DEBUG = True
 
@@ -83,3 +84,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.7/howto/static-files/
 
 STATIC_URL = '/static/'
+if not DEBUG:
+    STATIC_URL = 'http://tachaubennettresources.s3-us-west-1.amazonaws.com/'
+
